@@ -25,7 +25,7 @@ async def start(_, message: Message):
                         "💬 𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url="https://t.me/shivamdemon"
                     ),
                     InlineKeyboardButton(
-                        "🔊 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/BESTIES_FOREVER_LOVE"
+                        "🔊 𝙈𝙤𝙧𝙚 𝙄𝙣𝙛𝙤", url="https://t.me/ALONE_BOY_XD_01"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -43,7 +43,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/BESTIES_FOREVER_LOVE")
+                        "🔊 𝙈𝙖𝙣𝙖𝙜𝙚𝙧", url="https://t.me/ALONE_BOY_XD_01")
                 ]
             ]
         )
