@@ -7,7 +7,7 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgQAAxkBAAECyw9hI11WAc0e3ijfjWbk1o6Ot2qkBgACDgADBxSGH0BLwmepu3YDIAQ")
+    await message.reply_sticker("CAADBQADRQIAAhHHQFSfHJ-IR0eN6gI")
     await message.reply_text(
         f"""**- 𝙃𝙚𝙮 𝘼𝙢 {bn} 💛🐬,
 
