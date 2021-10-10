@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def play(_, message: Message):
 
-    lel = await message.reply("𝙋𝙧𝙤𝙘𝙚𝙨𝙨𝙞𝙣𝙜 𝙔𝙤𝙪𝙧 𝙎𝙤𝙣𝙜...**")
+    lel = await message.reply("𝗟𝗨𝗖𝗬 𝙋𝙧𝙤𝙘𝙚𝙨𝙨𝙞𝙣𝙜 𝙔𝙤𝙪𝙧 𝙎𝙤𝙣𝙜...**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -100,7 +100,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Sanki"
+        user.first_name = "lucy"
     usar = user
     wew = usar.id
     try:
@@ -112,7 +112,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>𝘼𝙙𝙙 𝙈𝙚 𝘼𝙨 𝘼𝙙𝙢𝙞𝙣 𝙁𝙞𝙧𝙨𝙩 𝙎𝙩𝙪𝙥𝙞𝙙.</b>")
+                        "<b>𝘼𝙙𝙙 𝗟𝗨𝗖𝗬 𝘼𝙨 𝘼𝙙𝙢𝙞𝙣 𝙁𝙞𝙧𝙨𝙩 𝙎𝙩𝙪𝙥𝙞𝙙.</b>")
                     return
 
                 try:
@@ -129,7 +129,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>𝙃𝙚𝙮 {user.first_name}, 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙄𝙨 𝙉𝙤𝙩 𝙃𝙚𝙧𝙚 :( 𝙎𝙚𝙣𝙙 /play 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙁𝙞𝙧𝙨𝙩 𝙏𝙤 𝘼𝙙𝙙 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩.</i>")
+            f"<i>𝙃𝙚𝙮 {user.first_name}, 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙄𝙨 𝙉𝙤𝙩 𝙃𝙚𝙧𝙚 :( 𝙎𝙚𝙣𝙙 /play 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙁𝙞𝙧𝙨𝙩 𝙏𝙤 𝘼𝙙𝙙 𝗟𝗨𝗖𝗬 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩.</i>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -143,7 +143,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/51a70e2ef9e0bde60b0d2.jpg"
+        thumb_name = "https://telegra.ph/file/a3e568d88b2b9cab4a95f.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -153,7 +153,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="𝘾𝙝𝙖𝙣𝙣𝙚𝙡 🔊",
-                        url="https://t.me/BESTIES_FOREVER_LOVE")
+                        url="https://t.me/LUCYMUSIC2")
                    
                 ]
             ]
@@ -201,7 +201,7 @@ async def play(_, message: Message):
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/51a70e2ef9e0bde60b0d2.jpg"
+            thumb_name = "https://telegra.ph/file/a3e568d88b2b9cab4a95f.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -223,10 +223,10 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit("🧐 **𝙒𝙝𝙞𝙘𝙝 𝙎𝙤𝙣𝙜 𝙔𝙤𝙪 𝙒𝙖𝙣𝙣𝙖 𝙋𝙡𝙖𝙮 ??**")
-        await lel.edit("🔎 **𝙁𝙞𝙣𝙙𝙞𝙣𝙜... 𝙃𝙤𝙡𝙙 𝙊𝙣**")
+        await lel.edit("🔎 **𝗟𝗨𝗖𝗬 𝙁𝙞𝙣𝙙𝙞𝙣𝙜... 𝙃𝙤𝙡𝙙 𝙊𝙣**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🔄 **𝙋𝙧𝙤𝙘𝙚𝙨𝙨𝙞𝙣𝙜... 𝙃𝙤𝙡𝙙 𝙊𝙣**")
+        await lel.edit("🔄 **𝗟𝗨𝗖𝗬 𝙋𝙧𝙤𝙘𝙚𝙨𝙨𝙞𝙣𝙜... 𝙃𝙤𝙡𝙙 𝙊𝙣**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
