@@ -29,7 +29,7 @@ Official Bot : [TgVCPlayerBot](https://telegram.me/Tgvcplayerbot)   |   Discussi
 
 - [![Deploy+To+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/mrnitric/tgvcplayerbot&envs=SESSION_NAME,BOT_TOKEN,BOT_NAME,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
 
-4. Add the bot to your group and send the [commands](https://github.com/mrnitric/tgvcplayerbot#features) to start using the VCPlayer Bot :)
+4. Add the bot to your group and send the [commands](https://github.com/rishabhanand2/lucymusic_bot#features) to start using the VCPlayer Bot :)
 
 
 # Steps To Setup
